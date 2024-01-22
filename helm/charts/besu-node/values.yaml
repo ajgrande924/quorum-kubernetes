@@ -46,6 +46,8 @@ volumePermissionsFix:
 
 node:
   besu:
+    service:
+      type: ClusterIP
     envBesuOpts: ""
     resources:
       cpuLimit: 0.7
