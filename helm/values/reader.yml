@@ -29,6 +29,8 @@ azure:
 
 node:
   besu:
+    service:
+      type: NodePort
     envBesuOpts: ""  
     metrics:
       serviceMonitorEnabled: true
