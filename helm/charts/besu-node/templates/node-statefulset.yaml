@@ -64,6 +64,13 @@ spec:
 {{- else }}
       serviceAccountName: {{ include "besu-node.fullname" . }}-sa
 {{- end }}
+
+      # tolerations:
+      #   - key: "node-role"
+      #     operator: "Equal"
+      #     value: "bcm"
+      #     effect: "NoSchedule"
+
       initContainers:
 
 {{- if has .Values.cluster.provider .Values.volumePermissionsFix }}
