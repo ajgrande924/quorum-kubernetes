@@ -29,6 +29,7 @@ azure:
   subscriptionId: azure-subscriptionId
 
 storage:
+  enabled: true
   sizeLimit: "20Gi"
   pvcSizeLimit: "20Gi"
   # NOTE: when you set this to Retain, the volume WILL persist after the chart is delete and you need to manually delete it
