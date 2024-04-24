@@ -152,7 +152,7 @@ image:
     # repository: hyperledger/besu
     # tag: 22.7.2
     repository: ethpandaops/besu
-    tag: main-5c1e1e1
+    tag: main-12723ac # 24.4.0-rc3
     pullPolicy: IfNotPresent
   tessera:
     repository: quorumengineering/tessera
